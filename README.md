@@ -44,6 +44,20 @@ Install this VSCode plugin-
 
 Reopen VSCode and then it should automatically pick up on the generated theme.
 
+### Install Chrome theme
+
+Check out this repository to download the chrome theme
+
+https://github.com/sortedcord/chrome-gruvbox
+
 And you are done I suppose.
 
+
+## Fonts used
+
+| Font Name           | Usage         | Download                                                   |   |   |
+|---------------------|---------------|------------------------------------------------------------|---|---|
+| Hack                | Terminal Font | https://github.com/source-foundry/Hack/releases/tag/v3.003 |   |   |
+| Google Sans Display | Polybar Text  | https://fonts.google.com/specimen/Open+Sans                |   |   |
+| FontAwesome         | Polybar Icons | https://fontawesome.com/download                           |   |   |
 
