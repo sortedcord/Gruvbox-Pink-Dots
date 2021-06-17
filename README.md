@@ -55,9 +55,9 @@ And you are done I suppose.
 
 ## Fonts used
 
-| Font Name           | Usage         | Download                                                   |   |   |
-|---------------------|---------------|------------------------------------------------------------|---|---|
-| Hack                | Terminal Font | https://github.com/source-foundry/Hack/releases/tag/v3.003 |   |   |
-| Google Sans Display | Polybar Text  | https://fonts.google.com/specimen/Open+Sans                |   |   |
-| FontAwesome         | Polybar Icons | https://fontawesome.com/download                           |   |   |
+| Font Name           | Usage         | Download                                                   
+|---------------------|---------------|------------------------------------------------------------|
+| Hack                | Terminal Font | https://github.com/source-foundry/Hack/releases/tag/v3.003 |
+| Google Sans Display | Polybar Text  | https://fonts.google.com/specimen/Open+Sans                | 
+| FontAwesome         | Polybar Icons | https://fontawesome.com/download                           |
 
