@@ -68,6 +68,19 @@ Check out this repository to download the chrome theme
 
 https://github.com/sortedcord/chrome-gruvbox
 
+### Install Discord theme
+
+First install BetterDiscord from here - https://betterdiscord.app/
+Make sure to set as executable before running it. You can do so like this if you use nautilus.
+
+![Screenshot](chmod.png)
+
+Once you have it installed, open the betterdiscord themes directory and place `pink-gruvbox.theme.css` in it.
+
+```
+cp pink-gruvbox ~/.config/BetterDiscord/blob_storage/themes
+```
+
 And you are done I suppose.
 
 
