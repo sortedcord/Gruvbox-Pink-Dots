@@ -31,20 +31,26 @@ new_window pixel
 exec feh --bg-scale Pictures/wall.jpg
 exec wal -i /home/codegrity/Pictures/wal.jpg
 exec polybar -r gruv
-set_from_resource $fg i3wm.color7
-set_from_resource $bg i3wm.color2
+#set_from_resource $fg i3wm.color7
+#set_from_resource $bg i3wm.color2
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
+client.focused          #5d4d65  #5d4d65  #c9b6c3  #5d4d65       #5d4d65
+client.focused_inactive #5d4d65  #5d4d65  #c9b6c3  #5d4d65       #5d4d65
+client.unfocused        #121012  #121012  #c9b6c3  #121012       #121012
+client.urgent           #5d4d65  #5d4d65  #c9b6c3  #5d4d65       #5d4d65
+client.placeholder      #5d4d65  #5d4d65  #c9b6c3  #5d4d65       #5d4d65
 
-client.background       $bg
+client.background       #5d4d65
 
+
+bindsym $mod+a exec --no-startup-id /home/codegrity/.config/rofi/applets/applets/apps.sh
+
+#bindsym $mod+m exec --no-startup-id menu_mpd
+#bindsym $mod+n exec --no-startup-id menu_network
+#bindsym $mod+p exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
 # PROTIP: You can also dynamically set dmenu's colors this way:
-bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+bindsym $mod+d exec --no-startup-id/home/codegrity/.config/rofi/launchers/text/launcher.sh
 # Theming
 # class                 border  bground text    indicator child_border
 #client.focused          #4C2CA4 #4C2CA4 #DEDEDE #4C2CA4   #4C2CA4
@@ -132,7 +138,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+#bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -179,7 +185,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

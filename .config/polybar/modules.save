@@ -36,13 +36,13 @@ label-unfocused-foreground = ${colors.foreground}
 label-urgent-foreground = ${colors.red}
 label-mode-foreground = ${colors.dark-aqua}
 label-separator = 
-ws-icon-0 = 1;%{T6}%{T-}
-ws-icon-1 = 2;%{T7}%{T-}
-ws-icon-2 = 3;%{T4}%{T-}
-ws-icon-3 = 4;%{T7}%{T-}
-ws-icon-4 = 5;%{T7}%{T-}
-ws-icon-5 = 6;%{T10}%{T-}
-ws-icon-6 = 7;%{T10}%{T-}
+ws-icon-0 = 1;%{T7}%{T-}
+ws-icon-1 = 2;%{T7}: Internet%{T-}
+ws-icon-2 = 3;%{T7}: Music%{T-}
+ws-icon-3 = 4;%{T7}: Messaging%{T-}
+ws-icon-4 = 5;%{T7}: Files%{T-}
+ws-icon-5 = 6;%{T7}: School%{T-}
+ws-icon-6 = 7;%{T7}: Code%{T-}
 
 [module/now-playing]
 type = custom/script
